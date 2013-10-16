@@ -1,0 +1,27 @@
+// Global variables and common values (colors, font-sizes & families, breakpoints)
+
+
+// ---------------------------------------------------------------------------
+// Colors
+$white: #ffffff;
+$black: #000000;
+
+
+// ---------------------------------------------------------------------------
+// Vars
+$defaultfontsize:1.8;
+$toucharea--raw: 40;
+$toucharea: $toucharea--raw + px;
+
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+//@import "susy";
+$total-columns  : 7;
+$column-width   : 3em;
+$gutter-width   : 0.8em;
+$grid-padding   : $gutter-width;
+
+$show-grid-backgrounds  : true;
+
+$break : 10;

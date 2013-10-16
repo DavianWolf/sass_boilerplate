@@ -1,0 +1,14 @@
+html { height: 100%; padding:0; margin:0; font-size: 62.5%; }
+
+body {
+  @include font-size($defaultfontsize);
+}
+
+// @extend
+
+.reset-list {
+  list-style: none; margin: 0; padding: 0;
+}
+.anchor-block {
+  display: block; height: 100%; text-decoration: none;
+}
